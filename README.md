@@ -35,5 +35,3 @@ No licenses required as project was developed in educational eviroment.
 
 José Fernández-Caminero: fdezcaminero@gmail.com <br>
 Rey David Cuevas Vela: cuevas.vela@gmail.com
-
-## Acknowledgements
