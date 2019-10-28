@@ -2,6 +2,7 @@
   display: grid;
   width: 100%;
   grid-template: 30px / 1fr 1fr 1fr;
+  border-bottom: 1px solid #e2e2e2; 
 }
 
 .center-content {
@@ -10,4 +11,9 @@
 
 .right-content {
   justify-self: end;
+}
+
+.left-content a {
+  font-weight: 700;
+  color:black;
 }
