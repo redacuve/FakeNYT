@@ -22,3 +22,11 @@ nav {
 #secondicon {
   border: none;
 }
+
+#leftnav {
+  display: inline;
+}
+
+#centernav {
+  display: inline;
+}
