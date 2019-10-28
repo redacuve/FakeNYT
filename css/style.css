@@ -1,40 +1,13 @@
-nav {
-  position: fixed;
+.grid {
+  display: grid;
   width: 100%;
-  border-bottom: 1px solid #e2e2e2;  
+  grid-template: 30px / 1fr 1fr 1fr;
 }
 
-.navstuff {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: inline;
+.center-content {
+  justify-self: center;
 }
 
-.navstuff li {
-  display: inline;
-}
-
-#lefticon {
-  border: none;
-}
-
-#secondicon {
-  border: none;
-}
-
-#leftnav {
-  float: left;
-  
-}
-
-#centernav {
-  margin-left: auto;
-  margin-right: auto;
-
-}
-
-#rightnav {
-  float: right;
-  
+.right-content {
+  justify-self: end;
 }
