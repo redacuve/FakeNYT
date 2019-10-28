@@ -24,13 +24,17 @@ nav {
 }
 
 #leftnav {
-  display: inline;
+  float: left;
+  
 }
 
 #centernav {
-  display: inline;
+  margin-left: auto;
+  margin-right: auto;
+
 }
 
 #rightnav {
-  display: inline;
+  float: right;
+  
 }
