@@ -1,9 +1,24 @@
-ul {
+nav {
+  position: fixed;
+  width: 100%;
+  border-bottom: 1px solid #e2e2e2;  
+}
+
+.navstuff {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    display: inline;
 }
 
 .navstuff li {
   display: inline;
+}
+
+#lefticon {
+  border: none;
+}
+
+#secondicon {
+  border: none;
 }
