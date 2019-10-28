@@ -2,7 +2,7 @@
   display: grid;
   width: 100%;
   grid-template: 30px / 1fr 1fr 1fr;
-  border-bottom: 1px solid #e2e2e2; 
+  border-bottom: 1px solid #e2e2e2;
 }
 
 .center-content {
@@ -16,4 +16,36 @@
 .left-content a {
   font-weight: 700;
   color:black;
+  font-size: 14.25px;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.7px;
+  line-height: 19px;
+}
+
+#spacesandcosmos {
+  display: inline;
+}
+
+.art-title {
+  display: inline-block;
+  max-width: 382.426px;
+  margin: 45px auto 16px auto;
+  font-family: nyt-cheltenham,georgia,'times new roman',times,serif;
+  font-style: italic;
+  font-weight: 700px;
+  color: #121212;
+}
+
+.main-content {
+  margin-left: 20%;
+}
+
+.big-pic {
+  width: 90%;
+}
+
+.chunkoftext {
+  margin-left: 20%;
+  max-width: 550px;
 }
