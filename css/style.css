@@ -164,6 +164,57 @@
   background-color: #000;
 }
 
+#littlefont {
+  font-size: 12px;
+  color: gray;
+}
+
 .moretext {
   margin-left: 20%;
+  max-width: 550px;
+}
+
+.nicebutton {
+  display: inline;
+  color: rgb(153, 153, 153);
+  display: inline;
+  margin-right: 16px;
+  max-width: 600px;
+  padding: 0px 1rem 0px 0px;
+  border: 0;
+}
+
+.read-comments {
+  background-color: rgb(86, 123, 149);
+  border: 1px solid rgb(50, 104, 145);
+  border-radius: 3px;
+  color: white;
+  display: block;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  line-height: 1.5rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px 0px;
+  text-transform: uppercase;
+  transition: background-color 0.6s ease 0s;
+  width: 100%;
+}
+
+.svg-icon {
+  width: 1em;
+  height: 1em;
+}
+
+.svg-icon path,
+.svg-icon polygon,
+.svg-icon rect {
+  fill: #4691f6;
+}
+
+.svg-icon circle {
+  stroke: #4691f6;
+  stroke-width: 1;
 }
