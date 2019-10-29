@@ -1,16 +1,22 @@
 .grid {
-  display: grid;
   width: 100%;
-  grid-template: 30px / 1fr 1fr 1fr;
   border-bottom: 1px solid #e2e2e2;
 }
 
 .center-content {
-  justify-self: center;
+  display: inline;
+  margin-left: 25%;
+  margin-right: 20%;
 }
 
 .right-content {
-  justify-self: end;
+  float: right;
+  display: inline;
+}
+
+.left-content {
+  float: left;
+  display: inline;
 }
 
 .left-content a {
@@ -48,4 +54,30 @@
 .chunkoftext {
   margin-left: 20%;
   max-width: 550px;
+}
+
+.tofinflation {
+  margin-left: 10%;
+}
+
+#inflation {
+  margin-right: 10%;
+  width: 85%;
+}
+
+.textboxes {
+  position: relative;
+  display: inline-block;
+}
+
+.textbox1 {
+  position: aboslute;
+  z-index: 999;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  top: 40%; /* Adjust this value to move the positioned div up and down */
+  text-align: center;
+  width: 60%; /* Set the width of the positioned div */
+  
 }
