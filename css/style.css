@@ -122,7 +122,7 @@
 .textbox5 {
   position: absolute;
   margin: 0;
-  top: 75%; /* Adjust this value to move the positioned div up and down */
+  top: 70%; /* Adjust this value to move the positioned div up and down */
   max-width: 210px;
   max-height: 100px;
   font-size: 12px;
@@ -132,7 +132,7 @@
   position: absolute;
   margin: 0;
   margin-left: 250px;
-  top: 75%; /* Adjust this value to move the positioned div up and down */
+  top: 70%; /* Adjust this value to move the positioned div up and down */
   max-width: 210px;
   max-height: 100px;
   font-size: 12px;
@@ -142,7 +142,7 @@
   position: absolute;
   margin: 0;
   margin-left: 500px;
-  top: 75%; /* Adjust this value to move the positioned div up and down */
+  top: 70%; /* Adjust this value to move the positioned div up and down */
   max-width: 210px;
   max-height: 100px;
   font-size: 12px;
@@ -152,7 +152,7 @@
   position: absolute;
   margin: 0;
   margin-left: 750px;
-  top: 75%; /* Adjust this value to move the positioned div up and down */
+  top: 70%; /* Adjust this value to move the positioned div up and down */
   max-width: 210px;
   max-height: 100px;
   font-size: 12px;
