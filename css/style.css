@@ -6,15 +6,6 @@
   clear: both;
 }
 
-/* figcaption {
-  margin-top: 20px;
-  width: 500px;
-  content: '';
-  height: 1px;
-  margin: 0 0 13px;
-  background-color: #000;
-} */
-
 .center-content {
   float: left;
   margin-left: 25%;
@@ -67,6 +58,7 @@
 
 .tofinflation {
   margin-left: 10%;
+  display: inline-block;
 }
 
 #inflation {
@@ -83,7 +75,7 @@
 .textbox1 {
   position: absolute;
   margin: 0;
-  top: 25%; /* Adjust this value to move the positioned div up and down */
+  top: 150px;
   max-width: 210px;
   max-height: 5px;
   font-size: 12px;
@@ -93,7 +85,7 @@
   position: absolute;
   margin: 0;
   margin-left: 250px;
-  top: 25%; /* Adjust this value to move the positioned div up and down */
+  top: 150px;
   max-width: 210px;
   max-height: 100px;
   font-size: 12px;
@@ -104,7 +96,7 @@
   position: absolute;
   margin: 0;
   margin-left: 500px;
-  top: 25%; /* Adjust this value to move the positioned div up and down */
+  top: 150px;
   max-width: 210px;
   max-height: 100px;
   font-size: 12px;
@@ -114,7 +106,7 @@
   position: absolute;
   margin: 0;
   margin-left: 750px;
-  top: 25%; /* Adjust this value to move the positioned div up and down */
+  top: 150px;
   max-width: 210px;
   max-height: 100px;
   font-size: 12px;
@@ -123,7 +115,7 @@
 .textbox5 {
   position: absolute;
   margin: 0;
-  top: 70%; /* Adjust this value to move the positioned div up and down */
+  top: 435px;
   max-width: 210px;
   max-height: 100px;
   font-size: 12px;
@@ -133,7 +125,7 @@
   position: absolute;
   margin: 0;
   margin-left: 250px;
-  top: 70%; /* Adjust this value to move the positioned div up and down */
+  top: 435px;
   max-width: 210px;
   max-height: 100px;
   font-size: 12px;
@@ -143,7 +135,7 @@
   position: absolute;
   margin: 0;
   margin-left: 500px;
-  top: 70%; /* Adjust this value to move the positioned div up and down */
+  top: 435px;
   max-width: 210px;
   max-height: 100px;
   font-size: 12px;
@@ -153,7 +145,7 @@
   position: absolute;
   margin: 0;
   margin-left: 750px;
-  top: 70%; /* Adjust this value to move the positioned div up and down */
+  top: 435px;
   max-width: 210px;
   max-height: 100px;
   font-size: 12px;
@@ -170,4 +162,8 @@
   height: 1px;
   margin: 0 0 13px;
   background-color: #000;
+}
+
+.moretext {
+  margin-left: 20%;
 }
