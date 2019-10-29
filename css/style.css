@@ -1,22 +1,30 @@
-.grid {
-  width: 100%;
+.nav {
   border-bottom: 1px solid #e2e2e2;
 }
 
+.clear {
+  clear: both;
+}
+
+.little-line {
+  width: 60px;
+  content: '';
+  height: 1px;
+  margin: 0 0 13px;
+  background-color: #000;
+}
+
 .center-content {
-  display: inline;
+  float: left;
   margin-left: 25%;
-  margin-right: 20%;
 }
 
 .right-content {
   float: right;
-  display: inline;
 }
 
 .left-content {
   float: left;
-  display: inline;
 }
 
 .left-content a {
