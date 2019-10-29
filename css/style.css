@@ -73,128 +73,79 @@
 
 .textbox1 {
   position: absolute;
-  z-index: 999;
   margin: 0;
-  left: 0;
-  right: 0;
   top: 25%; /* Adjust this value to move the positioned div up and down */
-  text-align: center;
-  width: 60%; /* Set the width of the positioned div */
   max-width: 210px;
   max-height: 5px;
-  text-align: left;
   font-size: 12px;
 }
 
 .textbox2 {
   position: absolute;
-  z-index: 999;
-  margin-top: 0;
+  margin: 0;
   margin-left: 250px;
-  left: 0;
-  right: 0;
   top: 25%; /* Adjust this value to move the positioned div up and down */
-  text-align: center;
-  width: 60%; /* Set the width of the positioned div */
   max-width: 210px;
-  max-height: 5px;
-  text-align: left;
+  max-height: 100px;
   font-size: 12px;
 }
 
 
 .textbox3 {
   position: absolute;
-  z-index: 999;
-  margin-top: 0;
+  margin: 0;
   margin-left: 500px;
-  left: 0;
-  right: 0;
   top: 25%; /* Adjust this value to move the positioned div up and down */
-  text-align: center;
-  width: 60%; /* Set the width of the positioned div */
   max-width: 210px;
-  max-height: 5px;
-  text-align: left;
+  max-height: 100px;
   font-size: 12px;
 }
 
 .textbox4 {
   position: absolute;
-  z-index: 999;
-  margin-top: 0;
+  margin: 0;
   margin-left: 750px;
-  left: 0;
-  right: 0;
   top: 25%; /* Adjust this value to move the positioned div up and down */
-  text-align: center;
-  width: 60%; /* Set the width of the positioned div */
   max-width: 210px;
-  max-height: 5px;
-  text-align: left;
+  max-height: 100px;
   font-size: 12px;
 }
 
 .textbox5 {
   position: absolute;
-  z-index: 999;
-  margin-top: 0;
-  margin-left: 0;
-  left: 0;
-  right: 0;
+  margin: 0;
   top: 75%; /* Adjust this value to move the positioned div up and down */
-  text-align: center;
-  width: 60%; /* Set the width of the positioned div */
   max-width: 210px;
-  max-height: 5px;
-  text-align: left;
+  max-height: 100px;
   font-size: 12px;
 }
 
 .textbox6 {
   position: absolute;
-  z-index: 999;
-  margin-top: 0;
+  margin: 0;
   margin-left: 250px;
-  left: 0;
-  right: 0;
   top: 75%; /* Adjust this value to move the positioned div up and down */
-  text-align: center;
-  width: 60%; /* Set the width of the positioned div */
   max-width: 210px;
-  max-height: 5px;
-  text-align: left;
+  max-height: 100px;
   font-size: 12px;
 }
 
 .textbox7 {
   position: absolute;
-  z-index: 999;
-  margin-top: 0;
+  margin: 0;
   margin-left: 500px;
-  left: 0;
-  right: 0;
   top: 75%; /* Adjust this value to move the positioned div up and down */
-  text-align: center;
-  width: 60%; /* Set the width of the positioned div */
   max-width: 210px;
-  max-height: 5px;
-  text-align: left;
+  max-height: 100px;
   font-size: 12px;
 }
 
 .textbox8 {
   position: absolute;
-  z-index: 999;
-  margin-top: 0;
+  margin: 0;
   margin-left: 750px;
-  left: 0;
-  right: 0;
   top: 75%; /* Adjust this value to move the positioned div up and down */
-  text-align: center;
-  width: 60%; /* Set the width of the positioned div */
   max-width: 210px;
-  max-height: 5px;
-  text-align: left;
+  max-height: 100px;
   font-size: 12px;
 }
