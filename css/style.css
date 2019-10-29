@@ -175,7 +175,6 @@
 }
 
 .nicebutton {
-  display: inline;
   color: rgb(153, 153, 153);
   display: inline;
   margin-right: 16px;
@@ -189,7 +188,7 @@
   border: 1px solid rgb(50, 104, 145);
   border-radius: 3px;
   color: white;
-  display: block;
+  display: inline;
   font-family: nyt-franklin, helvetica, arial, sans-serif;
   font-size: 0.8125rem;
   font-weight: 600;
@@ -200,7 +199,11 @@
   padding: 5px 0px;
   text-transform: uppercase;
   transition: background-color 0.6s ease 0s;
-  width: 100%;
+  width: 75%;
+}
+
+.shareicons {
+  display: inline;
 }
 
 .svg-icon {
@@ -217,4 +220,8 @@
 .svg-icon circle {
   stroke: #4691f6;
   stroke-width: 1;
+}
+
+.sharecomments {
+  display: inline;
 }
