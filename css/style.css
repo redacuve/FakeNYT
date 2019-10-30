@@ -203,7 +203,7 @@ figure {
   padding: 5px 0px;
   text-transform: uppercase;
   transition: background-color 0.6s ease 0s;
-  width: 75%;
+  
 }
 
 .shareicons {
@@ -225,10 +225,10 @@ figure {
   display: inline;
 }
 
-.more{
+.more {
   box-sizing: border-box;
   float: left;
-  width: 70%;
+  width: 65%;
 }
 
 .mostpopular {
@@ -241,4 +241,66 @@ figure {
   color: #000;
   text-decoration: none;
   font-weight: 500;
+}
+
+.morestuff {
+  float: left;
+  max-width: 33%;
+  padding-top: 2px;
+  padding-left: 2px;
+}
+
+.moreimg {
+  width: 100%;
+}
+
+.footer-column {
+  float: left;
+  width: 15%;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding-left: 5px;
+}
+
+.footer-column ul li a {
+  color: black;
+  text-decoration: none;
+}
+
+.footer {
+  border-top: 2px;
+}
+
+.little-border {
+  border-left: 1px solid;
+}
+
+.footer-bottom {
+  display: inline;
+}
+
+.footer-bottom ul li a {
+  color: gray;
+  text-decoration: none;
+}
+
+.footer-bottom ul {
+  list-style: none;
+}
+
+.footer-bottom ul li {
+  display: inline;
+}
+
+.nav-bottom {
+  border-top: 2px solid;
+  padding-top: 5px;
+  text-align: center;
+}
+
+.nav-bottom-right {
+  float: right;
+  width: 25%;
 }
