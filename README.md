@@ -16,7 +16,7 @@
 
 ## About The Project
 
-This is Microverse Project #3. We have to Fake the NYT Website.
+This is Microverse Project #3. We had to Fake the NYT Website. It was a very fun project where we got to dive into the way layouts really work. "Every element in a website is a rectangular box."
 
 ### Built With
 
