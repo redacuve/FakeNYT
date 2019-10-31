@@ -2,11 +2,12 @@ figure {
   margin: 0;
   padding: 0;
 }
+
 .nav {
   border-bottom: 1px solid #e2e2e2;
   position: fixed;
   width: 100%;
-  z-index:10;
+  z-index: 10;
   background: #fff;
   padding-top: 10px;
   top: 0;
@@ -30,8 +31,7 @@ figure {
   color: #000;
   font-size: 14px;
   font-weight: 700;
- 
-}
+ }
 
 .left-content {
   float: left;
@@ -39,7 +39,7 @@ figure {
 
 .left-content a {
   font-weight: 700;
-  color:black;
+  color: black;
   font-size: 14.25px;
   font-family: nyt-franklin, helvetica, arial, sans-serif;
   text-transform: uppercase;
@@ -51,7 +51,7 @@ figure {
   display: inline-block;
   max-width: 382.426px;
   margin: 45px auto 16px auto;
-  font-family: nyt-cheltenham,georgia,'times new roman',times,serif;
+  font-family: "nyt-cheltenham", georgia, 'times new roman', times, serif;
   font-style: italic;
   font-weight: 700px;
   color: #121212;
@@ -195,7 +195,7 @@ figure {
   margin-right: 16px;
   max-width: 600px;
   padding: 0px 1rem 0px 0px;
-  border: 0;
+  border: 0px;
 }
 
 .read-comments {
@@ -213,8 +213,6 @@ figure {
   margin-right: auto;
   padding: 5px 0px;
   text-transform: uppercase;
-  transition: background-color 0.6s ease 0s;
-  
 }
 
 .shareicons {
@@ -237,13 +235,13 @@ figure {
 }
 
 .more {
-  box-sizing: border-box;
+  
   float: left;
   width: 65%;
 }
 
 .mostpopular {
-  box-sizing: border-box;
+  
   float: right;
   width: 30%;
 }
@@ -327,6 +325,7 @@ figure {
 .nav-bottom-right p {
   display:inline;
 }
+
 .right-content button {
   color: #fff;
   background: #000;
@@ -336,16 +335,16 @@ figure {
 }
 
 .footer-img-text {
-   margin:0;
-  padding:0;
+  margin: 0;
+  padding: 0;
   color: gray;
   font-size: 10px;
   float: right;
 }
 
 .footer-img-date {
-  margin:0;
-  padding:0;
+  margin: 0;
+  padding: 0;
   font-size: 10px;
   color: gray;
   float: left;
