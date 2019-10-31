@@ -31,7 +31,7 @@ figure {
   color: #000;
   font-size: 14px;
   font-weight: 700;
- }
+}
 
 .left-content {
   float: left;
@@ -98,19 +98,16 @@ figure {
 
 .textbox2 {
   font-size: 12px;
-  margin-left: 250px;
-  margin: 0;
+  margin: 0 0 0 250px;
   max-height: 100px;
   max-width: 210px;
   position: absolute;
   top: 150px;
 }
 
-
 .textbox3 {
   font-size: 12px;
-  margin-left: 500px;
-  margin: 0;
+  margin: 0 0 0 500px;
   max-height: 100px;
   max-width: 210px;
   position: absolute;
@@ -119,8 +116,7 @@ figure {
 
 .textbox4 {
   font-size: 12px;
-  margin-left: 750px;
-  margin: 0;
+  margin: 0 0 0 750px;
   max-height: 100px;
   max-width: 210px;
   position: absolute;
@@ -138,8 +134,7 @@ figure {
 
 .textbox6 {
   font-size: 12px;
-  margin-left: 250px;
-  margin: 0;
+  margin: 0 0 0 250px;
   max-height: 100px;
   max-width: 210px;
   position: absolute;
@@ -148,8 +143,7 @@ figure {
 
 .textbox7 {
   font-size: 12px;
-  margin-left: 500px;
-  margin: 0;
+  margin: 0 0 0 500px;
   max-height: 100px;
   max-width: 210px;
   position: absolute;
@@ -158,8 +152,7 @@ figure {
 
 .textbox8 {
   font-size: 12px;
-  margin-left: 750px;
-  margin: 0;
+  margin: 0 0 0 750px;
   max-height: 100px;
   max-width: 210px;
   position: absolute;
@@ -190,12 +183,12 @@ figure {
 }
 
 .nicebutton {
-  border: 0px;
+  border: 0;
   color: rgb(153, 153, 153);
   display: inline;
   margin-right: 16px;
   max-width: 600px;
-  padding: 0px 1rem 0px 0px;
+  padding: 0 1rem 0 0;
 }
 
 .read-comments {
@@ -211,7 +204,7 @@ figure {
   line-height: 1.5rem;
   margin-left: auto;
   margin-right: auto;
-  padding: 5px 0px;
+  padding: 5px 0;
   text-transform: uppercase;
 }
 
@@ -321,7 +314,7 @@ figure {
 }
 
 .nav-bottom-right p {
-  display:inline;
+  display: inline;
 }
 
 .right-content button {
