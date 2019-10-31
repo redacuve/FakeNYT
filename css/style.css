@@ -58,7 +58,7 @@ figure {
 }
 
 .main-content {
-  margin-left: 20%;
+  margin-left: 10%;
 }
 
 .big-pic {
@@ -279,7 +279,7 @@ figure {
 }
 
 .footer-bottom {
-  font-size: 12px;
+  font-size: 10px;
   margin-bottom: 60px;
   text-align: center;
 }
@@ -339,4 +339,19 @@ figure {
   font-size: 10px;
   margin: 0;
   padding: 0;
+}
+
+.last-fc {
+    float: right;
+    padding-left: 10px;
+    width: 15%;
+}
+
+.last-fc ul {
+  list-style: none;
+}
+
+.last-fc ul li a {
+  color: black;
+  text-decoration: none;
 }
