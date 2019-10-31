@@ -4,13 +4,13 @@ figure {
 }
 
 .nav {
+  background: #fff;
   border-bottom: 1px solid #e2e2e2;
+  padding-top: 10px;
   position: fixed;
+  top: 0;
   width: 100%;
   z-index: 10;
-  background: #fff;
-  padding-top: 10px;
-  top: 0;
 }
 
 .clear {
@@ -38,23 +38,23 @@ figure {
 }
 
 .left-content a {
-  font-weight: 700;
   color: black;
-  font-size: 14.25px;
   font-family: nyt-franklin, helvetica, arial, sans-serif;
-  text-transform: uppercase;
+  font-size: 14.25px;
+  font-weight: 700;
   letter-spacing: 0.7px;
   line-height: 19px;
+  text-transform: uppercase;
 }
 
 .art-title {
+  color: #121212;
   display: inline-block;
-  max-width: 382.426px;
-  margin: 45px auto 16px auto;
   font-family: "nyt-cheltenham", georgia, 'times new roman', times, serif;
   font-style: italic;
   font-weight: 700px;
-  color: #121212;
+  margin: 45px auto 16px auto;
+  max-width: 382.426px;
 }
 
 .main-content {
@@ -83,87 +83,87 @@ figure {
 }
 
 .textboxes {
-  position: relative;
   display: inline-block;
+  position: relative;
 }
 
 .textbox1 {
-  position: absolute;
-  margin: 0;
-  top: 150px;
-  max-width: 210px;
-  max-height: 5px;
   font-size: 12px;
+  margin: 0;
+  max-height: 5px;
+  max-width: 210px;
+  position: absolute;
+  top: 150px;
 }
 
 .textbox2 {
-  position: absolute;
-  margin: 0;
-  margin-left: 250px;
-  top: 150px;
-  max-width: 210px;
-  max-height: 100px;
   font-size: 12px;
+  margin-left: 250px;
+  margin: 0;
+  max-height: 100px;
+  max-width: 210px;
+  position: absolute;
+  top: 150px;
 }
 
 
 .textbox3 {
-  position: absolute;
-  margin: 0;
-  margin-left: 500px;
-  top: 150px;
-  max-width: 210px;
-  max-height: 100px;
   font-size: 12px;
+  margin-left: 500px;
+  margin: 0;
+  max-height: 100px;
+  max-width: 210px;
+  position: absolute;
+  top: 150px;
 }
 
 .textbox4 {
-  position: absolute;
-  margin: 0;
-  margin-left: 750px;
-  top: 150px;
-  max-width: 210px;
-  max-height: 100px;
   font-size: 12px;
+  margin-left: 750px;
+  margin: 0;
+  max-height: 100px;
+  max-width: 210px;
+  position: absolute;
+  top: 150px;
 }
 
 .textbox5 {
-  position: absolute;
-  margin: 0;
-  top: 435px;
-  max-width: 210px;
-  max-height: 100px;
   font-size: 12px;
+  margin: 0;
+  max-height: 100px;
+  max-width: 210px;
+  position: absolute;
+  top: 435px;
 }
 
 .textbox6 {
-  position: absolute;
-  margin: 0;
-  margin-left: 250px;
-  top: 435px;
-  max-width: 210px;
-  max-height: 100px;
   font-size: 12px;
+  margin-left: 250px;
+  margin: 0;
+  max-height: 100px;
+  max-width: 210px;
+  position: absolute;
+  top: 435px;
 }
 
 .textbox7 {
-  position: absolute;
-  margin: 0;
-  margin-left: 500px;
-  top: 435px;
-  max-width: 210px;
-  max-height: 100px;
   font-size: 12px;
+  margin-left: 500px;
+  margin: 0;
+  max-height: 100px;
+  max-width: 210px;
+  position: absolute;
+  top: 435px;
 }
 
 .textbox8 {
-  position: absolute;
-  margin: 0;
-  margin-left: 750px;
-  top: 435px;
-  max-width: 210px;
-  max-height: 100px;
   font-size: 12px;
+  margin-left: 750px;
+  margin: 0;
+  max-height: 100px;
+  max-width: 210px;
+  position: absolute;
+  top: 435px;
 }
 
 .secondpart {
@@ -171,17 +171,17 @@ figure {
 }
 
 .secondpart::before {
-  width: 60px;
+  background-color: #000;
   content: '';
   display: block;
   height: 1px;
   margin: 0 0 13px;
-  background-color: #000;
+  width: 60px;
 }
 
 #littlefont {
-  font-size: 12px;
   color: gray;
+  font-size: 12px;
 }
 
 .moretext {
@@ -190,18 +190,18 @@ figure {
 }
 
 .nicebutton {
+  border: 0px;
   color: rgb(153, 153, 153);
   display: inline;
   margin-right: 16px;
   max-width: 600px;
   padding: 0px 1rem 0px 0px;
-  border: 0px;
 }
 
 .read-comments {
   background-color: rgb(86, 123, 149);
-  border: 1px solid rgb(50, 104, 145);
   border-radius: 3px;
+  border: 1px solid rgb(50, 104, 145);
   color: white;
   display: inline;
   font-family: nyt-franklin, helvetica, arial, sans-serif;
@@ -226,8 +226,8 @@ figure {
 }
 
 .svg-icon circle {
-  stroke: #4691f6;
   stroke-width: 1;
+  stroke: #4691f6;
 }
 
 .sharecomments {
@@ -235,29 +235,27 @@ figure {
 }
 
 .more {
-  
   float: left;
   width: 65%;
 }
 
 .mostpopular {
-  
   float: right;
   width: 30%;
 }
 
 .mostp-links a {
   color: #000;
-  text-decoration: none;
   font-weight: 500;
+  text-decoration: none;
 }
 
 .morestuff {
   float: left;
   max-width: 33%;
-  padding-top: 2px;
-  padding-left: 2px;
   padding-bottom: 12px;
+  padding-left: 2px;
+  padding-top: 2px;
 }
 
 .moreimg {
@@ -288,8 +286,8 @@ figure {
 }
 
 .footer-bottom {
-  margin-bottom: 60px;
   font-size: 12px;
+  margin-bottom: 60px;
   text-align: center;
 }
 
@@ -308,12 +306,12 @@ figure {
 }
 
 .nav-bottom {
-  border-top: 2px solid;
-  padding-top: 5px;
-  text-align: center;
-  position: fixed;
-  bottom: 0;
   background: #fff;
+  border-top: 2px solid;
+  bottom: 0;
+  padding-top: 5px;
+  position: fixed;
+  text-align: center;
   width: 100%;
 }
 
@@ -327,25 +325,25 @@ figure {
 }
 
 .right-content button {
-  color: #fff;
   background: #000;
-  border: 0;
-  padding: 7px 15px;
   border-radius: 10%;
+  border: 0;
+  color: #fff;
+  padding: 7px 15px;
 }
 
 .footer-img-text {
+  color: gray;
+  float: right;
+  font-size: 10px;
   margin: 0;
   padding: 0;
-  color: gray;
-  font-size: 10px;
-  float: right;
 }
 
 .footer-img-date {
-  margin: 0;
-  padding: 0;
-  font-size: 10px;
   color: gray;
   float: left;
+  font-size: 10px;
+  margin: 0;
+  padding: 0;
 }
